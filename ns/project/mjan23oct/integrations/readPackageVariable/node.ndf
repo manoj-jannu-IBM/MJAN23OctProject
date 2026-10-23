@@ -45,31 +45,42 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">abhk</value>
-    <value name="createdDate">2026-10-23T10:37:26.335907926Z</value>
-    <value name="lastModifiedDate">2026-10-23T10:37:26.335907926Z</value>
+    <value name="lastModifiedBy">abhk</value>
+    <value name="lastModifiedDate">2026-10-23T10:38:15.666555354Z</value>
     <value name="displayName">readPackageVariable</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
-        <value name="itemType">CONTROLS</value>
-        <value name="name">TRANSFORM</value>
+        <null name="name"/>
+        <value name="itemType">PACKAGES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">DADA_GlobalVariable1</value>
+          <value name="groupName">DADA_GlobalVariable1;1.0</value>
+          <null name="services"/>
+        </record>
+        <Boolean name="isProjectPackage">false</Boolean>
+        <record name="selectedRuntime" javaclass="com.wm.util.Values">
+          <value name="agentName">LOCAL</value>
+          <value name="displayName">LOCAL</value>
+          <value name="agentGroup">default</value>
+          <value name="executionPlaneType">local</value>
+        </record>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="description">readGlobalvariable</value>
+          <value name="serviceName">GB_1:readGlobalvariable</value>
+          <value name="displayName">readGlobalvariable</value>
+          <value name="assetType">Flow Service</value>
+          <null name="nsName"/>
+          <value name="itemType">flowService</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
         <number name="ui_step_index" type="Long">1</number>
         <value name="nodePathNew">0</value>
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">1</number>
-        <array name="map" type="object" depth="1" javaclass="java.lang.Object">
-        </array>
-        <array name="mapSet" type="object" depth="1" javaclass="java.lang.Object">
-        </array>
-        <array name="mapDelete" type="object" depth="1" javaclass="java.lang.Object">
-        </array>
-        <array name="transformer" type="object" depth="1" javaclass="java.lang.Object">
-        </array>
-        <array name="lookupTransformer" type="object" depth="1" javaclass="java.lang.Object">
-        </array>
       </record>
-      <null name="/0/0"/>
     </record>
     <value name="modifiedBy">abhk</value>
   </record>
