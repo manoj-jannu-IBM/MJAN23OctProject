@@ -17,19 +17,19 @@
     <value name="DADA_GlobalVariable1">1.0</value>
     <value name="DADA_RefDataDocTypeTests">1.0</value>
     <value name="SSL_JDBC_Test">1.0</value>
-    <value name="JMS2waySSL">1.0</value>
     <value name="JMSTest">1.0</value>
+    <value name="JMS2waySSL">1.0</value>
   </record>
   <null name="lazy_load_node_types"/>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">66</value>
+  <value name="build">67</value>
   <null name="description"/>
   <value name="created_date">23-10-2026 09:55:46 GMT</value>
   <null name="extendedProperties"/>
   <value name="target_server_version">12.1.0.0</value>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2026-10-23T19:20:12.475318605Z</value>
+  <value name="lastUpdated">2026-10-23T19:25:05.958837936Z</value>
   <value name="creator">Abhishek Kumar</value>
 </Values>

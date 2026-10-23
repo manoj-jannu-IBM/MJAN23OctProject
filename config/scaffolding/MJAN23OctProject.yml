@@ -45,16 +45,15 @@ packages:
   gitUrl: https://github.com/prabhakarsag
   gitUsername: manoj-jannu-IBM
   gitBranch: main
-- name: JMS2waySSL
+- name: JMSTest
   version: "1.0"
   gitServerName: SIQAGitHubShared
   gitUrl: https://github.com/prabhakarsag
   gitUsername: manoj-jannu-IBM
   gitBranch: main
-- name: JMSTest
-  version: "1.0"
+- name: JMS2waySSL
   gitServerName: SIQAGitHubShared
-  gitUrl: https://github.com/prabhakarsag
+  gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
   gitBranch: main
 services:
