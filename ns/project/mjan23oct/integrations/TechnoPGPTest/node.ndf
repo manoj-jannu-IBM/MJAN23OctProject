@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">abhk</value>
-    <value name="createdDate">2026-10-23T10:49:32.114945633Z</value>
-    <value name="lastModifiedDate">2026-10-23T10:49:32.114945633Z</value>
+    <value name="lastModifiedBy">abhk</value>
+    <value name="lastModifiedDate">2026-10-23T11:45:42.584925316Z</value>
     <value name="displayName">TechnoPGPTest</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -76,7 +75,7 @@
           <value name="connectionType">pgp</value>
           <null name="description"/>
         </record>
-        <value name="connectionNSName">SIQATechnoPGPAccount</value>
+        <value name="connectionNSName">project.mjan23oct.pgp.connections:SIQATechnoPGPAccount</value>
         <value name="connectionType">pgp</value>
         <value name="type">pgp</value>
         <value name="version">1</value>
@@ -113,6 +112,7 @@
         <number name="lineNumberForDebug" type="Long">1</number>
         <Boolean name="xmlMapsetSupported">true</Boolean>
         <null name="outputMapSet"/>
+        <value name="nodePathForDebug">0</value>
       </record>
     </record>
     <value name="modifiedBy">abhk</value>
