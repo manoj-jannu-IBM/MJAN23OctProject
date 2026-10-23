@@ -48,3 +48,19 @@ services:
     version: 12.0.0.0.25
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
+- serviceName: project.mjan23oct.integrations:SFOAuthRest
+  packages:
+  - name: MJAN23OctProject
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.26
+- serviceName: project.mjan23oct.WmSalesforceRESTProvider.com_webmethods_cloudstreams_salesforce_rest_v60.operations.actions:SIQASFOAuthRestAction
+  packages:
+  - name: MJAN23OctProject
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.26
