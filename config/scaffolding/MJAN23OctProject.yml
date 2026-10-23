@@ -37,6 +37,11 @@ packages:
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
   gitBranch: main
+- name: SSL_JDBC_Test
+  gitServerName: SIQAGitHubShared
+  gitUrl: https://github.com/prabhakarsag
+  gitUsername: manoj-jannu-IBM
+  gitBranch: main
 services:
 - serviceName: project.mjan23oct.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.operations.actions:SIQASFBasicAuthAction
   packages:
