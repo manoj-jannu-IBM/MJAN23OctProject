@@ -619,7 +619,7 @@
 </MAP>
 </INVOKE>
 
-<INVOKE NAME="Invoke predefined:pgpconnector" TIMEOUT="" SERVICE="pub.security:decryptAndVerify" VALIDATE-IN="" VALIDATE-OUT="">
+<INVOKE NAME="Invoke predefined:pgpconnector" TIMEOUT="" SERVICE="pub.security:decryptAndVerify" VALIDATE-IN="" VALIDATE-OUT="" DISABLED="true">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
