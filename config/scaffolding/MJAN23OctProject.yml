@@ -272,6 +272,36 @@ services:
     version: "1.0"
   - name: WmSalesforceProvider
     version: 12.0.0.0.25
+- serviceName: project.mjan23oct.integrations:TechnoPGPTest
+  packages:
+  - name: MJAN23OctProject
+    version: "1.0"
+  - name: JMS2waySSL
+    version: "1.0"
+  - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: SSL_JDBC_Test
+    version: "1.0"
+  - name: JMSTest
+    version: "1.0"
+  - name: SIQAJDBCAdapterTests
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.26
+  - name: SIQACloudStreamsTests
+    version: "1.0"
+  - name: DADA_RefDataDocTypeTests
+    version: "1.0"
+- serviceName: pub.security:signAndEncrypt
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1303
 - serviceName: project.mjan23oct.integrations:readPackageVariable
   packages:
   - name: MJAN23OctProject
