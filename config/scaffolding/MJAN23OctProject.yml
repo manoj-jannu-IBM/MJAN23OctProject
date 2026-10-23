@@ -302,6 +302,10 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.1312
+- serviceName: pub.security:decryptAndVerify
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1312
 - serviceName: project.mjan23oct.integrations:readPackageVariable
   packages:
   - name: MJAN23OctProject
