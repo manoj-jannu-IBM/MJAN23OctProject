@@ -46,7 +46,7 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">abhk</value>
-    <value name="lastModifiedDate">2026-10-23T19:10:00.436235261Z</value>
+    <value name="lastModifiedDate">2026-10-24T08:52:00.787104824Z</value>
     <value name="displayName">TechnoHTTPTest</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -75,7 +75,7 @@
           <value name="connectionType">http</value>
           <null name="description"/>
         </record>
-        <value name="connectionNSName">SIQATechnoHTTPAccount</value>
+        <value name="connectionNSName">project.mjan23oct.http.connections:SIQATechnoHTTPAccount</value>
         <value name="connectionType">http</value>
         <value name="type">http</value>
         <value name="version">1</value>
@@ -112,6 +112,7 @@
         <number name="lineNumberForDebug" type="Long">1</number>
         <Boolean name="xmlMapsetSupported">true</Boolean>
         <null name="outputMapSet"/>
+        <value name="nodePathForDebug">0</value>
       </record>
     </record>
     <value name="modifiedBy">abhk</value>
