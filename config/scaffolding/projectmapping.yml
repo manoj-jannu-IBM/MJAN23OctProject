@@ -11,9 +11,13 @@ runtimes:
     type: connection
   - name: MJAN23OctProject.project.mjan23oct.pgp.connections:SIQATechnoPGPAccount
     type: connection
+  - name: MJAN23OctProject.project.mjan23oct.http.connections:SIQATechnoHTTPAccount
+    type: connection
 - runtimeAlias: Cloud Designtime
   assets:
   - name: SIQACloudStreamsTests.SIQACloudStreamsTests:SalesforceCRM51
     type: connection
   - name: MJAN23OctProject.project.mjan23oct.pgp.connections:SIQATechnoPGPAccount
+    type: connection
+  - name: MJAN23OctProject.project.mjan23oct.http.connections:SIQATechnoHTTPAccount
     type: connection
