@@ -46,6 +46,7 @@ packages:
   gitUsername: manoj-jannu-IBM
   gitBranch: main
 - name: DADA_SSLJMS
+  version: "1.0"
   gitServerName: SIQAGitHubShared
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
@@ -55,13 +56,9 @@ services:
   packages:
   - name: MJAN23OctProject
     version: "1.0"
-  - name: JMS2waySSL
-    version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
   - name: SSL_JDBC_Test
-    version: "1.0"
-  - name: JMSTest
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
@@ -76,18 +73,16 @@ services:
   - name: SIQACloudStreamsTests
     version: "1.0"
   - name: DADA_RefDataDocTypeTests
+    version: "1.0"
+  - name: DADA_SSLJMS
     version: "1.0"
 - serviceName: project.mjan23oct.WmSalesforceRESTProvider.com_webmethods_cloudstreams_salesforce_rest_v60.operations.actions:SIQASFOAuthRestAction
   packages:
   - name: MJAN23OctProject
     version: "1.0"
-  - name: JMS2waySSL
-    version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
   - name: SSL_JDBC_Test
-    version: "1.0"
-  - name: JMSTest
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
@@ -103,43 +98,15 @@ services:
     version: "1.0"
   - name: DADA_RefDataDocTypeTests
     version: "1.0"
-- serviceName: project.mjan23oct.http.connections:SIQATechnoHTTPAccount
-  packages:
-  - name: MJAN23OctProject
-    version: "1.0"
-  - name: JMS2waySSL
-    version: "1.0"
-  - name: DADA_GlobalVariable1
-    version: "1.0"
-  - name: SSL_JDBC_Test
-    version: "1.0"
-  - name: JMSTest
-    version: "1.0"
-  - name: SIQAJDBCAdapterTests
-    version: "1.0"
-  - name: WmSalesforceProvider
-    version: 12.0.0.0.25
-  - name: WmJDBCAdapter
-    version: 10.3.0.0.34
-    wpmServer: https://packages.webmethods.io
-    wpmRegistry: licensed
-  - name: WmSalesforceRESTProvider
-    version: 12.0.0.0.26
-  - name: SIQACloudStreamsTests
-    version: "1.0"
-  - name: DADA_RefDataDocTypeTests
+  - name: DADA_SSLJMS
     version: "1.0"
 - serviceName: project.mjan23oct.integrations:ReferenceDataDoctypeTest
   packages:
   - name: MJAN23OctProject
     version: "1.0"
-  - name: JMS2waySSL
-    version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
   - name: SSL_JDBC_Test
-    version: "1.0"
-  - name: JMSTest
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
@@ -154,6 +121,8 @@ services:
   - name: SIQACloudStreamsTests
     version: "1.0"
   - name: DADA_RefDataDocTypeTests
+    version: "1.0"
+  - name: DADA_SSLJMS
     version: "1.0"
 - serviceName: DADA_RefDataDocTypeTests.refdata:PersonRefData
   packages:
@@ -163,13 +132,9 @@ services:
   packages:
   - name: MJAN23OctProject
     version: "1.0"
-  - name: JMS2waySSL
-    version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
   - name: SSL_JDBC_Test
-    version: "1.0"
-  - name: JMSTest
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
@@ -184,18 +149,16 @@ services:
   - name: SIQACloudStreamsTests
     version: "1.0"
   - name: DADA_RefDataDocTypeTests
+    version: "1.0"
+  - name: DADA_SSLJMS
     version: "1.0"
 - serviceName: project.mjan23oct.integrations:SFOAuthRest
   packages:
   - name: MJAN23OctProject
     version: "1.0"
-  - name: JMS2waySSL
-    version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
   - name: SSL_JDBC_Test
-    version: "1.0"
-  - name: JMSTest
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
@@ -210,18 +173,16 @@ services:
   - name: SIQACloudStreamsTests
     version: "1.0"
   - name: DADA_RefDataDocTypeTests
+    version: "1.0"
+  - name: DADA_SSLJMS
     version: "1.0"
 - serviceName: project.mjan23oct.integrations:SFOAuthRestInbuiltService
   packages:
   - name: MJAN23OctProject
     version: "1.0"
-  - name: JMS2waySSL
-    version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
   - name: SSL_JDBC_Test
-    version: "1.0"
-  - name: JMSTest
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
@@ -236,22 +197,20 @@ services:
   - name: SIQACloudStreamsTests
     version: "1.0"
   - name: DADA_RefDataDocTypeTests
+    version: "1.0"
+  - name: DADA_SSLJMS
     version: "1.0"
 - serviceName: wm.com_webmethods_cloudstreams_salesforce_rest_v60.operations:GetListOfObjects
   packages:
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
-- serviceName: project.mjan23oct.integrations:TPPSFBasicAuthSoap
+- serviceName: project.mjan23oct.integrations:TPPMysqlDB
   packages:
   - name: MJAN23OctProject
-    version: "1.0"
-  - name: JMS2waySSL
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
   - name: SSL_JDBC_Test
-    version: "1.0"
-  - name: JMSTest
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
@@ -266,6 +225,40 @@ services:
   - name: SIQACloudStreamsTests
     version: "1.0"
   - name: DADA_RefDataDocTypeTests
+    version: "1.0"
+  - name: DADA_SSLJMS
+    version: "1.0"
+- serviceName: SIQAJDBCAdapterTests.adapterServices:getData
+  packages:
+  - name: SIQAJDBCAdapterTests
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+- serviceName: project.mjan23oct.integrations:TPPSFBasicAuthSoap
+  packages:
+  - name: MJAN23OctProject
+    version: "1.0"
+  - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: SSL_JDBC_Test
+    version: "1.0"
+  - name: SIQAJDBCAdapterTests
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.26
+  - name: SIQACloudStreamsTests
+    version: "1.0"
+  - name: DADA_RefDataDocTypeTests
+    version: "1.0"
+  - name: DADA_SSLJMS
     version: "1.0"
 - serviceName: SIQACloudStreamsTests:connetorOperations
   packages:
@@ -291,17 +284,13 @@ services:
     version: "1.0"
   - name: WmSalesforceProvider
     version: 12.0.0.0.25
-- serviceName: project.mjan23oct.integrations:TechnoHTTPTest
+- serviceName: project.mjan23oct.integrations:TPPSSLJMS
   packages:
   - name: MJAN23OctProject
-    version: "1.0"
-  - name: JMS2waySSL
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
   - name: SSL_JDBC_Test
-    version: "1.0"
-  - name: JMSTest
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
@@ -316,6 +305,40 @@ services:
   - name: SIQACloudStreamsTests
     version: "1.0"
   - name: DADA_RefDataDocTypeTests
+    version: "1.0"
+  - name: DADA_SSLJMS
+    version: "1.0"
+- serviceName: DADA_SSLJMS.jms2wayssl_publisher:jms2wayssl_publisher
+  packages:
+  - name: DADA_SSLJMS
+    version: "1.0"
+- serviceName: pub.jms:send
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1303
+- serviceName: project.mjan23oct.integrations:TechnoHTTPTest
+  packages:
+  - name: MJAN23OctProject
+    version: "1.0"
+  - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: SSL_JDBC_Test
+    version: "1.0"
+  - name: SIQAJDBCAdapterTests
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.25
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+  - name: WmSalesforceRESTProvider
+    version: 12.0.0.0.26
+  - name: SIQACloudStreamsTests
+    version: "1.0"
+  - name: DADA_RefDataDocTypeTests
+    version: "1.0"
+  - name: DADA_SSLJMS
     version: "1.0"
 - serviceName: pub.client:http
   packages:
@@ -325,13 +348,9 @@ services:
   packages:
   - name: MJAN23OctProject
     version: "1.0"
-  - name: JMS2waySSL
-    version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
   - name: SSL_JDBC_Test
-    version: "1.0"
-  - name: JMSTest
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
@@ -346,6 +365,8 @@ services:
   - name: SIQACloudStreamsTests
     version: "1.0"
   - name: DADA_RefDataDocTypeTests
+    version: "1.0"
+  - name: DADA_SSLJMS
     version: "1.0"
 - serviceName: pub.security:signAndEncrypt
   packages:
@@ -359,13 +380,9 @@ services:
   packages:
   - name: MJAN23OctProject
     version: "1.0"
-  - name: JMS2waySSL
-    version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
   - name: SSL_JDBC_Test
-    version: "1.0"
-  - name: JMSTest
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
@@ -380,6 +397,8 @@ services:
   - name: SIQACloudStreamsTests
     version: "1.0"
   - name: DADA_RefDataDocTypeTests
+    version: "1.0"
+  - name: DADA_SSLJMS
     version: "1.0"
 - serviceName: GB_1:readGlobalvariable
   packages:
@@ -393,13 +412,9 @@ services:
   packages:
   - name: MJAN23OctProject
     version: "1.0"
-  - name: JMS2waySSL
-    version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
   - name: SSL_JDBC_Test
-    version: "1.0"
-  - name: JMSTest
     version: "1.0"
   - name: SIQAJDBCAdapterTests
     version: "1.0"
@@ -414,4 +429,6 @@ services:
   - name: SIQACloudStreamsTests
     version: "1.0"
   - name: DADA_RefDataDocTypeTests
+    version: "1.0"
+  - name: DADA_SSLJMS
     version: "1.0"
