@@ -45,11 +45,6 @@ packages:
   gitUrl: https://github.com/prabhakarsag
   gitUsername: manoj-jannu-IBM
   gitBranch: main
-- name: JMS2waySSL
-  gitServerName: Karthik
-  gitUrl: https://github.com/prabhakarsag
-  gitUsername: karthikbm
-  gitBranch: main
 - name: JMSTest
   gitServerName: Karthik
   gitUrl: https://github.com/prabhakarsag
