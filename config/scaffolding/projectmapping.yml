@@ -13,6 +13,26 @@ runtimes:
     type: connection
   - name: MJAN23OctProject.project.mjan23oct.http.connections:SIQATechnoHTTPAccount
     type: connection
+  - name: MJAN23OctProject.project.mjan23oct.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:SIQASFBasicAuthAccount.connectionconfiguration.cr.
+    type: connection
+  - name: MJAN23OctProject.project.mjan23oct.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:SIQASFBasicAuthAccount.connectionconfiguration.cn
+    type: connection
+  - name: MJAN23OctProject.project.mjan23oct.WmSalesforceRESTProvider.com_webmethods_cloudstreams_salesforce_rest_v60.connections:SIQASFOAuthRestAccount.connectionconfiguration.cn
+    type: connection
+  - name: MJAN23OctProject.project.mjan23oct.WmSalesforceRESTProvider.com_webmethods_cloudstreams_salesforce_rest_v60.connections:SIQASFOAuthRestAccount.connectionconfiguration.oauth_v20.
+    type: connection
+  - name: MJAN23OctProject.project.mjan23oct.WmSalesforceRESTProvider.com_webmethods_cloudstreams_salesforce_rest_v60.connections:SIQASFOAuthRestAccount.connectionconfiguration.oauth_v20
+    type: connection
+  - name: MJAN23OctProject.project.mjan23oct.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:SIQASFBasicAuthAccount.connectionconfiguration.cr
+    type: connection
+  - name: MJAN23OctProject.project.mjan23oct.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:SIQASFBasicAuthAccount.connectionmanagement
+    type: connection
+  - name: MJAN23OctProject.project.mjan23oct.WmSalesforceRESTProvider.com_webmethods_cloudstreams_salesforce_rest_v60.connections:SIQASFOAuthRestAccount.connectionconfiguration.oauth.
+    type: connection
+  - name: MJAN23OctProject.project.mjan23oct.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:SIQASFBasicAuthAccount.connectionconfiguration.pr
+    type: connection
+  - name: MJAN23OctProject.project.mjan23oct.WmSalesforceRESTProvider.com_webmethods_cloudstreams_salesforce_rest_v60.connections:SIQASFOAuthRestAccount.connectionmanagement
+    type: connection
 - runtimeAlias: Cloud Designtime
   assets:
   - name: SIQACloudStreamsTests.SIQACloudStreamsTests:SalesforceCRM51
@@ -20,4 +40,8 @@ runtimes:
   - name: MJAN23OctProject.project.mjan23oct.pgp.connections:SIQATechnoPGPAccount
     type: connection
   - name: MJAN23OctProject.project.mjan23oct.http.connections:SIQATechnoHTTPAccount
+    type: connection
+  - name: MJAN23OctProject.project.mjan23oct.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.connections:SIQASFBasicAuthAccount
+    type: connection
+  - name: MJAN23OctProject.project.mjan23oct.WmSalesforceRESTProvider.com_webmethods_cloudstreams_salesforce_rest_v60.connections:SIQASFOAuthRestAccount
     type: connection
