@@ -18,4 +18,5 @@
     <value name="createdDate">2026-10-23T10:48:38.359200351Z</value>
     <value name="lastModifiedDate">2026-10-23T10:48:38.359200351Z</value>
   </record>
+  <value name="connectionEnabled">true</value>
 </Values>
