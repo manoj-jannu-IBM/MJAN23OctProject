@@ -1,434 +1,434 @@
-version: "1.0"
 info:
   model: int-scaffold
 packages:
-- name: MJAN23OctProject
+- gitBranch: release/2.0.0
   gitServerName: SIQAGitHubShared
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
-  gitBranch: main
+  name: MJAN23OctProject
 - name: WmSalesforceProvider
   version: 12.0.0.0.25
-  wpmServer: https://packages.webmethods.io
   wpmRegistry: supported
+  wpmServer: https://packages.webmethods.io
 - name: WmSalesforceRESTProvider
   version: 12.0.0.0.26
-  wpmServer: https://packages.webmethods.io
   wpmRegistry: supported
-- name: DADA_GlobalVariable1
-  version: "1.0"
+  wpmServer: https://packages.webmethods.io
+- gitBranch: main
   gitServerName: SIQAGitHubShared
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
-  gitBranch: main
-- name: SSL_JDBC_Test
-  version: "1.0"
+  name: DADA_GlobalVariable1
+  version: '1.0'
+- gitBranch: main
   gitServerName: SIQAGitHubShared
   gitUrl: https://github.com/prabhakarsag
   gitUsername: manoj-jannu-IBM
-  gitBranch: main
-- name: SIQAJDBCAdapterTests
-  version: "1.0"
+  name: SSL_JDBC_Test
+  version: '1.0'
+- gitBranch: main
   gitServerName: SIQAGitHubShared
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
-  gitBranch: main
-- name: SIQACloudStreamsTests
-  version: "1.0"
+  name: SIQAJDBCAdapterTests
+  version: '1.0'
+- gitBranch: main
   gitServerName: SIQAGitHubShared
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
-  gitBranch: main
-- name: DADA_RefDataDocTypeTests
-  version: "1.0"
+  name: SIQACloudStreamsTests
+  version: '1.0'
+- gitBranch: main
   gitServerName: SIQAGitHubShared
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
-  gitBranch: main
-- name: DADA_SSLJMS
-  version: "1.0"
+  name: DADA_RefDataDocTypeTests
+  version: '1.0'
+- gitBranch: main
   gitServerName: SIQAGitHubShared
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
-  gitBranch: main
+  name: DADA_SSLJMS
+  version: '1.0'
 services:
-- serviceName: project.mjan23oct.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.operations.actions:SIQASFBasicAuthAction
-  packages:
+- packages:
   - name: MJAN23OctProject
     version: 2.0.0
   - name: DADA_GlobalVariable1
-    version: "1.0"
+    version: '1.0'
   - name: SSL_JDBC_Test
-    version: "1.0"
+    version: '1.0'
   - name: SIQAJDBCAdapterTests
-    version: "1.0"
+    version: '1.0'
   - name: WmSalesforceProvider
     version: 12.0.0.0.25
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
-    wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+    wpmServer: https://packages.webmethods.io
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
   - name: SIQACloudStreamsTests
-    version: "1.0"
+    version: '1.0'
   - name: DADA_RefDataDocTypeTests
-    version: "1.0"
+    version: '1.0'
   - name: DADA_SSLJMS
-    version: "1.0"
-- serviceName: project.mjan23oct.WmSalesforceRESTProvider.com_webmethods_cloudstreams_salesforce_rest_v60.operations.actions:SIQASFOAuthRestAction
-  packages:
+    version: '1.0'
+  serviceName: project.mjan23oct.WmSalesforceProvider.com_webmethods_cloudstreams_salesforce_v53.operations.actions:SIQASFBasicAuthAction
+- packages:
   - name: MJAN23OctProject
     version: 2.0.0
   - name: DADA_GlobalVariable1
-    version: "1.0"
+    version: '1.0'
   - name: SSL_JDBC_Test
-    version: "1.0"
+    version: '1.0'
   - name: SIQAJDBCAdapterTests
-    version: "1.0"
+    version: '1.0'
   - name: WmSalesforceProvider
     version: 12.0.0.0.25
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
-    wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+    wpmServer: https://packages.webmethods.io
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
   - name: SIQACloudStreamsTests
-    version: "1.0"
+    version: '1.0'
   - name: DADA_RefDataDocTypeTests
-    version: "1.0"
+    version: '1.0'
   - name: DADA_SSLJMS
-    version: "1.0"
-- serviceName: project.mjan23oct.integrations:ReferenceDataDoctypeTest
-  packages:
+    version: '1.0'
+  serviceName: project.mjan23oct.WmSalesforceRESTProvider.com_webmethods_cloudstreams_salesforce_rest_v60.operations.actions:SIQASFOAuthRestAction
+- packages:
   - name: MJAN23OctProject
     version: 2.0.0
   - name: DADA_GlobalVariable1
-    version: "1.0"
+    version: '1.0'
   - name: SSL_JDBC_Test
-    version: "1.0"
+    version: '1.0'
   - name: SIQAJDBCAdapterTests
-    version: "1.0"
+    version: '1.0'
   - name: WmSalesforceProvider
     version: 12.0.0.0.25
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
-    wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+    wpmServer: https://packages.webmethods.io
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
   - name: SIQACloudStreamsTests
-    version: "1.0"
+    version: '1.0'
   - name: DADA_RefDataDocTypeTests
-    version: "1.0"
+    version: '1.0'
   - name: DADA_SSLJMS
-    version: "1.0"
-- serviceName: DADA_RefDataDocTypeTests.refdata:PersonRefData
-  packages:
+    version: '1.0'
+  serviceName: project.mjan23oct.integrations:ReferenceDataDoctypeTest
+- packages:
   - name: DADA_RefDataDocTypeTests
-    version: "1.0"
-- serviceName: project.mjan23oct.integrations:SFBasicAuthSoap
-  packages:
+    version: '1.0'
+  serviceName: DADA_RefDataDocTypeTests.refdata:PersonRefData
+- packages:
   - name: MJAN23OctProject
     version: 2.0.0
   - name: DADA_GlobalVariable1
-    version: "1.0"
+    version: '1.0'
   - name: SSL_JDBC_Test
-    version: "1.0"
+    version: '1.0'
   - name: SIQAJDBCAdapterTests
-    version: "1.0"
+    version: '1.0'
   - name: WmSalesforceProvider
     version: 12.0.0.0.25
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
-    wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+    wpmServer: https://packages.webmethods.io
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
   - name: SIQACloudStreamsTests
-    version: "1.0"
+    version: '1.0'
   - name: DADA_RefDataDocTypeTests
-    version: "1.0"
+    version: '1.0'
   - name: DADA_SSLJMS
-    version: "1.0"
-- serviceName: project.mjan23oct.integrations:SFOAuthRest
-  packages:
+    version: '1.0'
+  serviceName: project.mjan23oct.integrations:SFBasicAuthSoap
+- packages:
   - name: MJAN23OctProject
     version: 2.0.0
   - name: DADA_GlobalVariable1
-    version: "1.0"
+    version: '1.0'
   - name: SSL_JDBC_Test
-    version: "1.0"
+    version: '1.0'
   - name: SIQAJDBCAdapterTests
-    version: "1.0"
+    version: '1.0'
   - name: WmSalesforceProvider
     version: 12.0.0.0.25
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
-    wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+    wpmServer: https://packages.webmethods.io
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
   - name: SIQACloudStreamsTests
-    version: "1.0"
+    version: '1.0'
   - name: DADA_RefDataDocTypeTests
-    version: "1.0"
+    version: '1.0'
   - name: DADA_SSLJMS
-    version: "1.0"
-- serviceName: project.mjan23oct.integrations:SFOAuthRestInbuiltService
-  packages:
+    version: '1.0'
+  serviceName: project.mjan23oct.integrations:SFOAuthRest
+- packages:
   - name: MJAN23OctProject
     version: 2.0.0
   - name: DADA_GlobalVariable1
-    version: "1.0"
+    version: '1.0'
   - name: SSL_JDBC_Test
-    version: "1.0"
+    version: '1.0'
   - name: SIQAJDBCAdapterTests
-    version: "1.0"
+    version: '1.0'
   - name: WmSalesforceProvider
     version: 12.0.0.0.25
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
-    wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+    wpmServer: https://packages.webmethods.io
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
   - name: SIQACloudStreamsTests
-    version: "1.0"
+    version: '1.0'
   - name: DADA_RefDataDocTypeTests
-    version: "1.0"
+    version: '1.0'
   - name: DADA_SSLJMS
-    version: "1.0"
-- serviceName: wm.com_webmethods_cloudstreams_salesforce_rest_v60.operations:GetListOfObjects
-  packages:
+    version: '1.0'
+  serviceName: project.mjan23oct.integrations:SFOAuthRestInbuiltService
+- packages:
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
-- serviceName: project.mjan23oct.integrations:TPPMysqlDB
-  packages:
+  serviceName: wm.com_webmethods_cloudstreams_salesforce_rest_v60.operations:GetListOfObjects
+- packages:
   - name: MJAN23OctProject
     version: 2.0.0
   - name: DADA_GlobalVariable1
-    version: "1.0"
+    version: '1.0'
   - name: SSL_JDBC_Test
-    version: "1.0"
+    version: '1.0'
   - name: SIQAJDBCAdapterTests
-    version: "1.0"
+    version: '1.0'
   - name: WmSalesforceProvider
     version: 12.0.0.0.25
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
-    wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+    wpmServer: https://packages.webmethods.io
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
   - name: SIQACloudStreamsTests
-    version: "1.0"
+    version: '1.0'
   - name: DADA_RefDataDocTypeTests
-    version: "1.0"
+    version: '1.0'
   - name: DADA_SSLJMS
-    version: "1.0"
-- serviceName: SIQAJDBCAdapterTests.adapterServices:getData
-  packages:
+    version: '1.0'
+  serviceName: project.mjan23oct.integrations:TPPMysqlDB
+- packages:
   - name: SIQAJDBCAdapterTests
-    version: "1.0"
+    version: '1.0'
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
-    wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
-- serviceName: project.mjan23oct.integrations:TPPSFBasicAuthSoap
-  packages:
+    wpmServer: https://packages.webmethods.io
+  serviceName: SIQAJDBCAdapterTests.adapterServices:getData
+- packages:
   - name: MJAN23OctProject
     version: 2.0.0
   - name: DADA_GlobalVariable1
-    version: "1.0"
+    version: '1.0'
   - name: SSL_JDBC_Test
-    version: "1.0"
+    version: '1.0'
   - name: SIQAJDBCAdapterTests
-    version: "1.0"
+    version: '1.0'
   - name: WmSalesforceProvider
     version: 12.0.0.0.25
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
-    wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+    wpmServer: https://packages.webmethods.io
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
   - name: SIQACloudStreamsTests
-    version: "1.0"
+    version: '1.0'
   - name: DADA_RefDataDocTypeTests
-    version: "1.0"
+    version: '1.0'
   - name: DADA_SSLJMS
-    version: "1.0"
-- serviceName: SIQACloudStreamsTests:connetorOperations
-  packages:
+    version: '1.0'
+  serviceName: project.mjan23oct.integrations:TPPSFBasicAuthSoap
+- packages:
   - name: SIQACloudStreamsTests
-    version: "1.0"
+    version: '1.0'
   - name: WmSalesforceProvider
     version: 12.0.0.0.25
-- serviceName: SIQACloudStreamsTests:createAccountConnectorService
-  packages:
+  serviceName: SIQACloudStreamsTests:connetorOperations
+- packages:
   - name: SIQACloudStreamsTests
-    version: "1.0"
+    version: '1.0'
   - name: WmSalesforceProvider
     version: 12.0.0.0.25
-- serviceName: SIQACloudStreamsTests:retrieveAccountConnectorService
-  packages:
+  serviceName: SIQACloudStreamsTests:createAccountConnectorService
+- packages:
   - name: SIQACloudStreamsTests
-    version: "1.0"
+    version: '1.0'
   - name: WmSalesforceProvider
     version: 12.0.0.0.25
-- serviceName: SIQACloudStreamsTests:deleteAccountConnectorService
-  packages:
+  serviceName: SIQACloudStreamsTests:retrieveAccountConnectorService
+- packages:
   - name: SIQACloudStreamsTests
-    version: "1.0"
+    version: '1.0'
   - name: WmSalesforceProvider
     version: 12.0.0.0.25
-- serviceName: project.mjan23oct.integrations:TPPSSLJMS
-  packages:
+  serviceName: SIQACloudStreamsTests:deleteAccountConnectorService
+- packages:
   - name: MJAN23OctProject
     version: 2.0.0
   - name: DADA_GlobalVariable1
-    version: "1.0"
+    version: '1.0'
   - name: SSL_JDBC_Test
-    version: "1.0"
+    version: '1.0'
   - name: SIQAJDBCAdapterTests
-    version: "1.0"
+    version: '1.0'
   - name: WmSalesforceProvider
     version: 12.0.0.0.25
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
-    wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+    wpmServer: https://packages.webmethods.io
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
   - name: SIQACloudStreamsTests
-    version: "1.0"
+    version: '1.0'
   - name: DADA_RefDataDocTypeTests
-    version: "1.0"
+    version: '1.0'
   - name: DADA_SSLJMS
-    version: "1.0"
-- serviceName: DADA_SSLJMS.jms2wayssl_publisher:jms2wayssl_publisher
-  packages:
+    version: '1.0'
+  serviceName: project.mjan23oct.integrations:TPPSSLJMS
+- packages:
   - name: DADA_SSLJMS
-    version: "1.0"
-- serviceName: pub.jms:send
-  packages:
+    version: '1.0'
+  serviceName: DADA_SSLJMS.jms2wayssl_publisher:jms2wayssl_publisher
+- packages:
   - name: WmPublic
     version: 12.1.0.0.1303
-- serviceName: project.mjan23oct.integrations:TechnoHTTPTest
-  packages:
+  serviceName: pub.jms:send
+- packages:
   - name: MJAN23OctProject
     version: 2.0.0
   - name: DADA_GlobalVariable1
-    version: "1.0"
+    version: '1.0'
   - name: SSL_JDBC_Test
-    version: "1.0"
+    version: '1.0'
   - name: SIQAJDBCAdapterTests
-    version: "1.0"
+    version: '1.0'
   - name: WmSalesforceProvider
     version: 12.0.0.0.25
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
-    wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+    wpmServer: https://packages.webmethods.io
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
   - name: SIQACloudStreamsTests
-    version: "1.0"
+    version: '1.0'
   - name: DADA_RefDataDocTypeTests
-    version: "1.0"
+    version: '1.0'
   - name: DADA_SSLJMS
-    version: "1.0"
-- serviceName: pub.client:http
-  packages:
+    version: '1.0'
+  serviceName: project.mjan23oct.integrations:TechnoHTTPTest
+- packages:
   - name: WmPublic
     version: 12.1.0.0.1303
-- serviceName: project.mjan23oct.integrations:TechnoPGPTest
-  packages:
+  serviceName: pub.client:http
+- packages:
   - name: MJAN23OctProject
     version: 2.0.0
   - name: DADA_GlobalVariable1
-    version: "1.0"
+    version: '1.0'
   - name: SSL_JDBC_Test
-    version: "1.0"
+    version: '1.0'
   - name: SIQAJDBCAdapterTests
-    version: "1.0"
+    version: '1.0'
   - name: WmSalesforceProvider
     version: 12.0.0.0.25
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
-    wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+    wpmServer: https://packages.webmethods.io
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
   - name: SIQACloudStreamsTests
-    version: "1.0"
+    version: '1.0'
   - name: DADA_RefDataDocTypeTests
-    version: "1.0"
+    version: '1.0'
   - name: DADA_SSLJMS
-    version: "1.0"
-- serviceName: pub.security:signAndEncrypt
-  packages:
+    version: '1.0'
+  serviceName: project.mjan23oct.integrations:TechnoPGPTest
+- packages:
   - name: WmPublic
     version: 12.1.0.0.1303
-- serviceName: pub.security:decryptAndVerify
-  packages:
+  serviceName: pub.security:signAndEncrypt
+- packages:
   - name: WmPublic
     version: 12.1.0.0.1303
-- serviceName: project.mjan23oct.integrations:readPackageVariable
-  packages:
+  serviceName: pub.security:decryptAndVerify
+- packages:
   - name: MJAN23OctProject
     version: 2.0.0
   - name: DADA_GlobalVariable1
-    version: "1.0"
+    version: '1.0'
   - name: SSL_JDBC_Test
-    version: "1.0"
+    version: '1.0'
   - name: SIQAJDBCAdapterTests
-    version: "1.0"
+    version: '1.0'
   - name: WmSalesforceProvider
     version: 12.0.0.0.25
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
-    wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+    wpmServer: https://packages.webmethods.io
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
   - name: SIQACloudStreamsTests
-    version: "1.0"
+    version: '1.0'
   - name: DADA_RefDataDocTypeTests
-    version: "1.0"
+    version: '1.0'
   - name: DADA_SSLJMS
-    version: "1.0"
-- serviceName: GB_1:readGlobalvariable
-  packages:
+    version: '1.0'
+  serviceName: project.mjan23oct.integrations:readPackageVariable
+- packages:
   - name: DADA_GlobalVariable1
-    version: "1.0"
-- serviceName: pub.globalVariable:getGlobalVariable
-  packages:
+    version: '1.0'
+  serviceName: GB_1:readGlobalvariable
+- packages:
   - name: WmPublic
     version: 12.1.0.0.1303
-- serviceName: project.mjan23oct.integrations:readProjectVariable
-  packages:
+  serviceName: pub.globalVariable:getGlobalVariable
+- packages:
   - name: MJAN23OctProject
     version: 2.0.0
   - name: DADA_GlobalVariable1
-    version: "1.0"
+    version: '1.0'
   - name: SSL_JDBC_Test
-    version: "1.0"
+    version: '1.0'
   - name: SIQAJDBCAdapterTests
-    version: "1.0"
+    version: '1.0'
   - name: WmSalesforceProvider
     version: 12.0.0.0.25
   - name: WmJDBCAdapter
     version: 10.3.0.0.34
-    wpmServer: https://packages.webmethods.io
     wpmRegistry: licensed
+    wpmServer: https://packages.webmethods.io
   - name: WmSalesforceRESTProvider
     version: 12.0.0.0.26
   - name: SIQACloudStreamsTests
-    version: "1.0"
+    version: '1.0'
   - name: DADA_RefDataDocTypeTests
-    version: "1.0"
+    version: '1.0'
   - name: DADA_SSLJMS
-    version: "1.0"
+    version: '1.0'
+  serviceName: project.mjan23oct.integrations:readProjectVariable
+version: 2.0.0
