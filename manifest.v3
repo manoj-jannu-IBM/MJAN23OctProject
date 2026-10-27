@@ -12,23 +12,23 @@
   <record name="requires" javaclass="com.wm.util.Values">
     <value name="WmSalesforceProvider">12.0.0.0.25</value>
     <value name="WmSalesforceRESTProvider">12.0.0.0.26</value>
-    <value name="SIQAJDBCAdapterTests">1.0</value>
     <value name="SIQACloudStreamsTests">1.0</value>
     <value name="DADA_RefDataDocTypeTests">1.0</value>
     <value name="DADA_SSLJMS">1.0</value>
     <value name="DADA_GlobalVariable1">1.0</value>
     <value name="SSL_JDBC_Test">1.0</value>
+    <value name="SIQAJDBCAdapterTests">1.0</value>
   </record>
   <null name="lazy_load_node_types"/>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">106</value>
+  <value name="build">107</value>
   <null name="description"/>
   <value name="created_date">23-10-2026 09:55:46 GMT</value>
   <null name="extendedProperties"/>
   <value name="target_server_version">12.1.0.0</value>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2026-10-27T06:22:12.735183972Z</value>
+  <value name="lastUpdated">2026-10-27T06:22:29.411718943Z</value>
   <value name="creator">Abhishek Kumar</value>
 </Values>
